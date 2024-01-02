@@ -20,7 +20,7 @@ export default function Header() {
           </div>
           <div>
             <SearchComponent />
-            <p>Profile icon goes here</p>
+            <p className="text-white text-center">Profile icon goes here</p>
           </div>
         </header>
       </BackgroundTop>

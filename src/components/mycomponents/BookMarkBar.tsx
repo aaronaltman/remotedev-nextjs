@@ -18,7 +18,7 @@ export default function BookMarkBar() {
       {/* Dropdown button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-center items-center gap-2 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+        className="flex text-sm justify-center items-center gap-2 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
       >
         Bookmarks
         <ArrowDownNarrowWide size={20} />
