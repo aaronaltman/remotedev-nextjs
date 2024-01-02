@@ -1,12 +1,9 @@
-import Image from "next/image";
+import Header from "@/components/mycomponents/Header";
 
 export default function Home() {
   return (
     <div>
-      <p>background goes here with background component</p>
-      <p>Header component goes here</p>
-      <p>Container</p>
-      <p>Footer</p>
+      <Header />
     </div>
   );
 }
