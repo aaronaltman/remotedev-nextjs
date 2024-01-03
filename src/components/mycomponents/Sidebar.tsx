@@ -1,4 +1,5 @@
 import React from "react";
+import JobList from "./JobList";
 
 export default function Sidebar() {
   return (
@@ -7,7 +8,7 @@ export default function Sidebar() {
         <p>ResultCount</p>
         <p>SortingControls</p>
       </div>
-      <p>Joblist</p>
+      <JobList />
       <p>Pagination Controls</p>
     </div>
   );
