@@ -11,13 +11,12 @@ export default function Header() {
   const [jobItems, setJobItems] = useState([]);
   const [search, setSearch] = useState("");
 
-  const baseURL =
-    "https://bytegrad.com/course-assets/projects/rmtdev/api/data?search=";
-
   useEffect(() => {
     if (!search) return;
     async function fetchData() {
-      const response = await fetch(`${baseURL}${search}`);
+      const response = await fetch(
+        `https://bytegrad.com/course-assets/projects/rmtdev/api/data?search=${search}`
+      );
       const data = await response.json();
       setJobItems(data.jobItems);
     }
