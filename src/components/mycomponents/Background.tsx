@@ -5,5 +5,5 @@ export default function Background({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className=" bg-slate-400 min-h-[75dvh]">{children}</div>;
+  return <div className=" bg-slate-200 min-h-[75dvh]">{children}</div>;
 }
